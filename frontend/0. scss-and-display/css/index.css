@@ -1,0 +1,27 @@
+h1 {
+  background-color: red;
+  border: 5px solid green;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+p span {
+  display: inline-block;
+  font-weight: bold;
+}
+p span.block {
+  display: block;
+}
+
+div img {
+  display: inline;
+  height: 100px;
+  width: 100px;
+}
+
+/*# sourceMappingURL=index.css.map */

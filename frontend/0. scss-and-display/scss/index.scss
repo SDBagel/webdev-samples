@@ -1,0 +1,30 @@
+
+h1 {
+  background-color: red;
+  border: 5px solid green;
+  border-radius: 5px;
+  margin: 20px; // left right top and bottom
+  padding: 20px; // left right top and bottom
+  padding-top: 30px;
+}
+
+p {
+  font-size: 20px;
+
+  span {
+    display: inline-block; // explicitly set inline-block, but this is the default. not necessary
+    font-weight: bold;
+
+    &.block {
+      display: block; // can change to block
+    }
+  }
+}
+
+div {
+  img {
+    display: inline;
+    height: 100px;
+    width: 100px;
+  }
+}
