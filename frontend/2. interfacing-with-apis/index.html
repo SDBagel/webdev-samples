@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive CSS Sample</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+      Using FlexCore (external library) as a
+      fast way to generate a layout for the site.
+      Uses display: flex and flexbox properties.
+      See https://sdbagel.com/FlexCore for docs.
+    -->
+    <link rel="stylesheet" href="css/flexcore.css">
+
+    <!-- CSS (compiled SCSS) and JS that you edit -->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+
+    <main class="container flex-column flex-list">
+      <br>
+      <h1>Interfacing with APIs Demo</h1>
+      <br>
+
+      <div class="card flex">
+        <h2>API Call Demo</h2>
+        <p><b>The result from the API call is:</b></p>
+        <p id="resultText">Not called yet!</p>
+        <div id="loadingSpinner"></div>
+        <br><br>
+        <button class="btn btn-primary" onclick="makeAPICall()">Make API Call</button>
+      </div>
+
+      <div class="card flex">
+        <p>This demo looks at using the fetch API to make network requests with JS. In class, we will look at how responsive design extends to JS as well as CSS.</p>
+      </div>
+
+    </main>
+
+  </body>
+</html>
